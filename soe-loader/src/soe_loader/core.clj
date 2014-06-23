@@ -6,8 +6,6 @@
 
 (def date-format (java.text.SimpleDateFormat. "yyyyMMddHHmmss"))
 
-(def arguments (:arguments (parse-opts args cli-options)))
-
 (defn load-server [game region server server-map date]
   "check that server exists in db, adds it if not, then loads the server data"
     (if (not (db/server-exists? game region server))
