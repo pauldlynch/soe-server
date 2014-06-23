@@ -8,7 +8,7 @@
 
 (def db {:classname "org.sqlite.JDBC",
          :subprotocol "sqlite",
-         :subname (or (first *command-line-args*) "/Volumes/Macintosh_HD_2/Projects/Clojure/soe-loader/soe_status.sq3")})
+         :subname (or (first *command-line-args*) "/Volumes/Macintosh_HD_2/Shared/workarea/soe-server/soe-loader/soe_status.sq3")})
 
 (defn get-game [code]
   (sql/with-connection db
