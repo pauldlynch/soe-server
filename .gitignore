@@ -14,4 +14,5 @@ pom.xml
 /.env
 /target
 /lib/
+.nrepl-port
 *.sq3
