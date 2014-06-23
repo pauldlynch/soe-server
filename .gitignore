@@ -1,0 +1,17 @@
+soe_loader/soe_status.sq3
+*~
+.DS_Store
+*~
+*#
+.#*
+pom.xml
+*jar
+/classes/
+.lein-deps-sum
+/.lein-failures
+/.lein-env
+/checkouts
+/.env
+/target
+/lib/
+*.sq3
