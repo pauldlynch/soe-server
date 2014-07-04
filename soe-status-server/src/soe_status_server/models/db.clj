@@ -28,7 +28,7 @@
   (get-server game server))
 
 (defn date-30 [date]
-  (t/minus date (t/days 1)))
+  (t/minus date (t/days 30)))
 
 (def date-format (tf/formatter "yyyy-MM-dd HH:mm:ss"))
 
