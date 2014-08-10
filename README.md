@@ -3,7 +3,7 @@ soe-server
 
 Server code and uploader for SOE Status historical data.
 
-This contains two projects, soe-server and soe-loader; each have their own README.md.
+This contains two projects, soe-status-server and soe-loader; each have their own README.md.
 
 soe-loader
 ----------
