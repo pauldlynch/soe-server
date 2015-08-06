@@ -17,7 +17,7 @@
                  [compojure "1.1.6"]
                  [hiccup "1.0.5"]
                  [ring-server "0.3.1"]]
-  :plugins [[lein-ring "0.8.10"]]
+  :plugins [[lein-ring "0.9.6"]]
   :ring {:handler soe-status-server.handler/app
          :init soe-status-server.handler/init
          :destroy soe-status-server.handler/destroy}
